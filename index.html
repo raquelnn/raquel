@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Desenvolvimento</title>
+    <title>Em Breve | Consultório de Psicologia</title>
 
     <style>
         * {
@@ -13,49 +13,113 @@
         }
 
         body {
-            height: 100vh;
+            min-height: 100vh;
             display: flex;
             align-items: center;
             justify-content: center;
-            background: linear-gradient(135deg, #0f172a, #1e293b);
+            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 50%, #fff8e1 100%);
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #f1f5f9;
+            color: #37474f;
+            padding: 20px;
         }
 
         .container {
             text-align: center;
-            padding: 40px 60px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 16px;
-            backdrop-filter: blur(10px);
-            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
+            padding: 50px 60px;
+            background: rgba(255, 255, 255, 0.85);
+            border-radius: 24px;
+            backdrop-filter: blur(15px);
+            box-shadow: 0 20px 60px rgba(76, 175, 80, 0.15);
+            max-width: 500px;
+            border: 1px solid rgba(76, 175, 80, 0.2);
+        }
+
+        .icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            animation: float 3s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0); }
+            50% { transform: translateY(-10px); }
         }
 
         h1 {
-            font-size: 2.5rem;
-            font-weight: 600;
-            letter-spacing: 1px;
+            font-size: 2rem;
+            font-weight: 500;
+            color: #2e7d32;
+            margin-bottom: 15px;
+            letter-spacing: 0.5px;
         }
 
         p {
-            margin-top: 15px;
-            font-size: 1.1rem;
-            color: #cbd5e1;
+            font-size: 1.05rem;
+            color: #546e7a;
+            line-height: 1.6;
+            margin-bottom: 10px;
         }
 
-        .status {
-            margin-top: 25px;
+        .quote {
+            margin-top: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+            border-radius: 12px;
+            font-style: italic;
+            color: #1b5e20;
             font-size: 0.95rem;
-            opacity: 0.7;
+            position: relative;
+        }
+
+        .quote::before {
+            content: """;
+            font-size: 3rem;
+            position: absolute;
+            top: -10px;
+            left: 15px;
+            opacity: 0.3;
+            color: #1b5e20;
+        }
+
+        .contact-info {
+            margin-top: 30px;
+            padding-top: 25px;
+            border-top: 1px solid rgba(76, 175, 80, 0.3);
+        }
+
+        .contact-info p {
+            font-size: 0.9rem;
+            color: #78909c;
+        }
+
+        .contact-info a {
+            color: #2e7d32;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .hearts {
+            margin-top: 20px;
+            font-size: 1.5rem;
+            letter-spacing: 10px;
+            opacity: 0.6;
         }
 
         @media (max-width: 600px) {
             .container {
-                padding: 30px;
+                padding: 35px 25px;
             }
 
             h1 {
-                font-size: 2rem;
+                font-size: 1.6rem;
+            }
+
+            .icon {
+                font-size: 3rem;
             }
         }
     </style>
@@ -63,9 +127,24 @@
 <body>
 
     <div class="container">
-        <h1>🚧 Em Desenvolvimento</h1>
-        <p>Estamos trabalhando para trazer algo incrível em breve.</p>
-        <div class="status">Volte em breve para conferir as novidades.</div>
+        <div class="icon">🌱</div>
+        
+        <h1>Em Breve</h1>
+        
+        <p>Estou preparando um espaço digital acolhedor para cuidar de você.</p>
+        
+        <p>Um ambiente seguro e sem julgamentos, onde sua jornada de autoconhecimento será respeitada.</p>
+
+        <div class="quote">
+            "Cuidar da mente é o primeiro passo para viver com mais leveza e propósito."
+        </div>
+
+        <div class="contact-info">
+            <p>📧 Entre em contato: <a href="mailto:contato@psicologa.com.br">contato@psicologa.com.br</a></p>
+            <p>📱 WhatsApp: <a href="https://wa.me/5511999999999">(11) 99999-9999</a></p>
+        </div>
+
+        <div class="hearts">💚 🤍 💚</div>
     </div>
 
 </body>
