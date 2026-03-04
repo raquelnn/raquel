@@ -1,151 +1,588 @@
-<!DOCTYPE html>
-<html lang="pt-BR">
+ <!DOCTYPE html>
+<html lang="en" data-calmivelle-theme="light"> 
+
+<!-- Mirrored from themeslab.lucidoutsourcing.com/demo/calmivelle/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2026 20:34:12 GMT -->
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Em Breve | Consultório de Psicologia</title>
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+    <title>Raquel Nunes - Professional Therapy & Mental Wellness Website Template</title>
 
-        body {
-            min-height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background: linear-gradient(135deg, #e8f5e9 0%, #f1f8e9 50%, #fff8e1 100%);
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            color: #37474f;
-            padding: 20px;
-        }
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="logo/favicon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="logo/favicon.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="logo/favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/logo/favicon.html"> 
 
-        .container {
-            text-align: center;
-            padding: 50px 60px;
-            background: rgba(255, 255, 255, 0.85);
-            border-radius: 24px;
-            backdrop-filter: blur(15px);
-            box-shadow: 0 20px 60px rgba(76, 175, 80, 0.15);
-            max-width: 500px;
-            border: 1px solid rgba(76, 175, 80, 0.2);
-        }
+    <meta name="description" content="Calmivelle is a modern and responsive therapy website template designed for psychologists, counselors, mental health clinics, and wellness professionals. Create a safe and calming online presence with ease.">
+    <meta name="keywords" content="therapy website template, psychologist website, mental health clinic template, counseling website design, therapist portfolio, wellness website template, Calmivelle">
+    <meta name="author" content="Lucid Themeslab">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
 
-        .icon {
-            font-size: 4rem;
-            margin-bottom: 20px;
-            animation: float 3s ease-in-out infinite;
-        }
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Calmivelle - Therapy & Mental Wellness Website Template">
+    <meta property="og:description" content="A beautifully designed website template for therapists, psychologists, and mental health professionals. Calm, modern, and fully responsive.">
+    <meta property="og:image" content="#">
+    <meta property="og:url" content="#">
+    <meta property="og:site_name" content="Calmivelle">
 
-        @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
-        }
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calmivelle - Therapy & Mental Wellness Website Template">
+    <meta name="twitter:description" content="Professional therapy website template for counselors and mental health clinics. Clean, modern and responsive design.">
+    <meta name="twitter:image" content="#">
 
-        h1 {
-            font-size: 2rem;
-            font-weight: 500;
-            color: #2e7d32;
-            margin-bottom: 15px;
-            letter-spacing: 0.5px;
-        }
+    <!-- Canonical -->
+    <link rel="canonical" href="#">
 
-        p {
-            font-size: 1.05rem;
-            color: #546e7a;
-            line-height: 1.6;
-            margin-bottom: 10px;
-        }
-
-        .quote {
-            margin-top: 30px;
-            padding: 20px;
-            background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
-            border-radius: 12px;
-            font-style: italic;
-            color: #1b5e20;
-            font-size: 0.95rem;
-            position: relative;
-        }
-
-        .quote::before {
-            content: """;
-            font-size: 3rem;
-            position: absolute;
-            top: -10px;
-            left: 15px;
-            opacity: 0.3;
-            color: #1b5e20;
-        }
-
-        .contact-info {
-            margin-top: 30px;
-            padding-top: 25px;
-            border-top: 1px solid rgba(76, 175, 80, 0.3);
-        }
-
-        .contact-info p {
-            font-size: 0.9rem;
-            color: #78909c;
-        }
-
-        .contact-info a {
-            color: #2e7d32;
-            text-decoration: none;
-            font-weight: 500;
-        }
-
-        .contact-info a:hover {
-            text-decoration: underline;
-        }
-
-        .hearts {
-            margin-top: 20px;
-            font-size: 1.5rem;
-            letter-spacing: 10px;
-            opacity: 0.6;
-        }
-
-        @media (max-width: 600px) {
-            .container {
-                padding: 35px 25px;
-            }
-
-            h1 {
-                font-size: 1.6rem;
-            }
-
-            .icon {
-                font-size: 3rem;
-            }
-        }
-    </style>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css"> 
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body class="body-bg" id="home">
+    <!-- Preloader 
+    <div class="preloader px-5">  
+            <div class="loading-text display-1 secondfont fw-semibold">
+                <span>Raquel</span>  
+                <span>Nunes</span>  
+                <span>...</span> 
+            </div> 
+    </div>-->
 
-    <div class="container">
-        <div class="icon">🌱</div>
-        
-        <h1>Em Breve</h1>
-        
-        <p>Estou preparando um espaço digital acolhedor para cuidar de você.</p>
-        
-        <p>Um ambiente seguro e sem julgamentos, onde sua jornada de autoconhecimento será respeitada.</p>
+    <!-- Theme Switch Button -->
+    <button class="btn prime-btn py-2 px-3 theme-switchtoggle" aria-label="theme-switch button" id="btnSwitch">
+        <i class="fa-solid fs-5 prime-text fa-moon white-text"></i>
+    </button>
 
-        <div class="quote">
-            "Cuidar da mente é o primeiro passo para viver com mais leveza e propósito."
+    <!-- header starts here  -->
+    <main class="px-3">
+         <header class="header-main sticky-top py-3 mb-2 head-bg">
+             <nav class="navbar navbar-expand-xl navbar-light py-0 px-sm-3" aria-label="Offcanvas navbar large">
+                 <div class="container-fluid p-0">
+                     <a class="navbar-brand p-0 m-0" href="index-2.html">
+                         <img src="logo/logo.png" height="40" data-item="light" class="object-fit-contain" alt="logo">
+                         <img src="logo/logo2.png" height="40" data-item="dark" class="object-fit-contain" alt="logo">
+                     </a> 
+                     <div class="offcanvas offcanvas-end head-bg" tabindex="-1" id="offcanvasNavbar2">
+                         <div class="offcanvas-header">
+                             <a href="index-2.html" class="offcanvas-title" id="offcanvasNavbar2Label">
+                                <img src="logo/logo.png" height="30" data-item="light" class="object-fit-contain" alt="logo">
+                                <img src="logo/logo2.png" height="30" data-item="dark" class="object-fit-contain" alt="logo"> 
+                             </a>
+                             <button type="button" class="btn-close close" data-bs-dismiss="offcanvas" aria-label="Close">
+                                <i class="fa-solid fa-xmark"></i>
+                             </button>
+                         </div>
+                         <div class="offcanvas-body">
+                             <ul class="navbar-nav justify-content-lg-center gap-4 flex-grow-1 pe-3" id="nav_ul">
+                                 <li class="nav-item active">
+                                     <a class="nav-link" aria-current="page" href="#home">Home</a>
+                                 </li>
+                                 <li class="nav-item">
+                                     <a class="nav-link" href="#about_main">Sobre</a>
+                                 </li>
+                                 <li class="nav-item">
+                                     <a class="nav-link" href="#therapy_main">Agendamentos</a>
+                                 </li>
+                                 <li class="nav-item">
+                                     <a class="nav-link" href="#news_main">news</a>
+                                 </li>
+                                 <li class="nav-item">
+                                     <a class="nav-link" href="#contact_main">Contato</a>
+                                 </li> 
+                             </ul> 
+                         </div>
+                     </div>
+                     <div class="d-flex align-items-center gap-1 gap-sm-2">
+                         <button class="btn prime-outline-btn navbar-toggler p-3 rounded-circle icon-btn prime-outline-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2" aria-label="open mobile menu">
+                              <i class="fa-solid fa-bars-staggered"></i>
+                         </button>
+                         <a href="mailto:#" class="btn prime-outline-btn icon-btn rounded-circle p-3" aria-label="send-email"><i class="fa-solid fa-envelope"></i></a>
+                         <a href="tel:#" class="btn prime-outline-btn icon-btn rounded-circle p-3" aria-label="call"><i class="fa-solid fa-phone"></i></a>
+                         <a href="#contact_main" class="btn prime-outline-btn app_btn rounded-pill p-3">
+                            <i class="fa-solid fa-file-pen d-xl-none"></i>
+                            <span class="d-none d-xl-inline">WhatsApp</span>
+                        </a>
+                     </div>
+                 </div>
+             </nav> 
+         </header>
+        <!-- header ends here  -->
+    
+        <!-- banner section starts here  -->
+         <section class="banner-outer mb-3" data-aos="fade-in" data-aos-duration="3000">
+            <div class=" banner-main rounded-5 p-4">
+                <div class="banner-card card-bg p-5 rounded-5"  data-aos="flip-up" data-aos-duration="1000">
+                    <div class="banner-card-content">
+                        <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ "X" Anos de experiência /</p>
+                        <h1 class="display-3 head-text text-capitalize mb-3">Psicóloga</h1>
+                        <h2 class="doc-name head-text secondfont text-capitalize m-0">Raquel <br> Nunes</h2>
+                        <div class="divider"></div>
+                        <p class="para-text mb-5 text-uppercase fw-medium">Providing compassionate, evidence-based therapy to help individuals, couples, and families overcome challenges and build emotionally healthy lives.</p>
+                        <div class="d-flex flex-wrap align-items-center gap-3">
+                            <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                            <a href="tel:#" class="btn prime-outline-btn rounded-pill ps-2 pe-3 d-flex align-items-center gap-2"> 
+                                <span class="icon-btn border prime-border rounded-circle">
+                                     <i class="fa-solid fa-phone"></i>
+                                </span> 
+                                 +1-123456789
+                            </a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+         </section>
+        <!-- banner section ends here -->
+
+        <!-- benefits section starts here -->
+         <section class="benefits-section-main overflow-y-hidden p-4 mb-3">
+            <div class="row">
+                <div class="col-md-6 col-xxl-3">
+                    <div class="d-flex align-items-center gap-4 p-3" data-aos="slide-up" data-aos-duration="1000">
+                        <img src="benefits/brain1.png" height="75" class="object-fit-contain" alt="brain">
+                        <div>
+                            <h3 class="head-text text-capitalize fs-5 mb-3">Evidence-Based Therapy</h3>
+                            <p class="para-text mb-3">We use scientifically proven therapeutic methods to ensure measurable progress and long-term emotional well-being.</p>
+                            <a href="#" aria-label="view_benefits"><i class="fa-solid fa-arrow-right-long fs-4 para-text"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-3">
+                     <div class="d-flex align-items-center gap-4 p-3" data-aos="slide-down" data-aos-duration="1200">
+                        <img src="benefits/notepad1.png" height="75" class="object-fit-contain" alt="brain">
+                        <div>
+                            <h3 class="head-text text-capitalize fs-5 mb-3">Personalized Treatment Plans</h3>
+                            <p class="para-text mb-3">Every client receives a customized therapy plan tailored to their unique needs and goals.</p> 
+                            <a href="#" aria-label="view_benefits"><i class="fa-solid fa-arrow-right-long fs-4 para-text"></i></a> 
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-3">
+                     <div class="d-flex align-items-center gap-4 p-3" data-aos="slide-up" data-aos-duration="1400">
+                        <img src="benefits/barchart1.png" height="75" class="object-fit-contain" alt="brain">
+                        <div>
+                            <h3 class="head-text text-capitalize fs-5 mb-3">Progress Tracking</h3>
+                            <p class="para-text mb-3">Structured sessions with clear milestones to monitor your growth and development.</p>
+                            <a href="#" aria-label="view_benefits"><i class="fa-solid fa-arrow-right-long fs-4 para-text"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xxl-3">
+                     <div class="d-flex align-items-center gap-4 p-3" data-aos="slide-down" data-aos-duration="1600">
+                        <img src="benefits/security1.png" height="75" class="object-fit-contain" alt="brain">
+                        <div>
+                            <h3 class="head-text text-capitalize fs-5 mb-3">Strict Confidentiality</h3>
+                            <p class="para-text mb-3">Your privacy and emotional safety are our highest priorities.</p>
+                            <a href="#" aria-label="view_benefits"><i class="fa-solid fa-arrow-right-long fs-4 para-text"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- benefits section ends here --> 
+
+        <!-- About section starts here -->
+         <section class="about-section-main rounded-5 p-4 overflow-y-hidden" id="about_main"> 
+                <div class="row align-items-center"> 
+                     <div class="col-lg-6 mb-5 mb-lg-0" data-aos="flip-right" data-aos-duration="1000">
+                        <img src="about/about.webp" height="650" class="w-100 object-fit-cover rounded-5" alt="about-img">
+                    </div>
+                    <div class="col-lg-6 mb-5 mb-lg-0 px-5" data-aos="slide-down" data-aos-duration="1200">
+                        <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ Sobre /</p>
+                        <h2 class="fs-1 text-capitalize m-0 head-text">Raquel Nunes</h2>
+                        <h2 class="secondfont display-1 prime-shade text-capitalize m-0">Psicóloga</h2>
+                        <p class="para-text mb-5">Calmivelle is committed to creating a safe, supportive, and non-judgmental environment where individuals can explore their emotions, heal from past experiences, and develop stronger coping strategies.Our mission is to empower clients to build resilience, improve relationships, and achieve long-term emotional well-being.</p>
+                        <a href="#contact_main" class="btn prime-outline-btn rounded-pill p-3">WhatsApp</a> 
+                    </div> 
+                </div>
+                <div class="row flex-row-reverse align-items-center"> 
+                    <div class="col-lg-6 mb-5 mb-lg-0" data-aos="flip-right" data-aos-duration="1000">
+                        <img src="about/about2.webp" height="650" class="w-100 object-fit-cover rounded-5" alt="about-img2">
+                    </div>
+                    <div class="col-lg-6 px-5" data-aos="slide-up" data-aos-duration="1200"> 
+                        <h2 class="fs-1 text-capitalize mb-3 head-text">A Therapist Is More Than Just a Listener — They Are a Guide on Your Mental Health Journey<br> <span class="secondfont prime-shade display-1">Compassionate Care.</span> </h2> 
+                        <p class="para-text mb-5">We combine empathy with clinical expertise to deliver therapy that truly transforms lives. Whether you're struggling with anxiety, stress, relationship issues, or personal growth challenges, Calmivelle is here to help.</p> 
+                    </div> 
+                </div> 
+         </section>
+        <!-- About section ends here -->
+
+        <!-- Marque section starts here -->
+         <div class="marquee my-5"> 
+                <div class="marquee-content">
+                    <span>
+                        Compassionate Therapy - Family Counseling - Mental Wellness Support - Emotional Healing - Relationship Guidance - Stress Management - Personal Growth - Confidential Care -
+                    </span>
+                    <span>
+                        Compassionate Therapy - Family Counseling - Mental Wellness Support - Emotional Healing - Relationship Guidance - Stress Management - Personal Growth - Confidential Care -
+                    </span>
+                </div> 
+         </div>
+        <!-- Marque section ends here -->
+
+        <!-- solutions starts here  -->
+         <section class="alt-bg solutions-main" id="therapy_main">
+             <div class="container-lg py-5">
+                <div class="head-content mb-5" data-aos="slide-up" data-aos-duration="1200">
+                    <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ THERAPY SERVICES /</p>
+                    <h2 class="display-3 text-capitalize m-0 head-text">Therapy Sessions Designed for</h2>
+                    <h2 class="secondfont display-1 prime-shade text-capitalize m-0">our clients</h2>
+                </div>
+                <div class="row g-4">
+                    <div class="col-sm-6 col-lg-4" data-aos="flip-down" data-aos-duration="1200">
+                        <div class="solution-card card-i p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">individual therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Personalized one-on-one sessions to address anxiety, depression, stress, trauma, and life transitions.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-lg-4" data-aos="flip-left" data-aos-duration="1200">
+                        <div class="solution-card card-c p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">couple therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Helping partners strengthen communication, resolve conflicts, and rebuild trust.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-lg-4" data-aos="flip-down" data-aos-duration="1200">
+                        <div class="solution-card card-ch p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">Child therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Support for children experiencing emotional, behavioral, or developmental challenges.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-lg-4" data-aos="flip-left" data-aos-duration="1200">
+                        <div class="solution-card card-o p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">online therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Flexible virtual sessions for clients who prefer therapy from the comfort of home.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-lg-4" data-aos="flip-down" data-aos-duration="1200">
+                        <div class="solution-card card-cp p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">corporate therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Mental health solutions designed for workplace productivity and employee well-being.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                     <div class="col-sm-6 col-lg-4" data-aos="flip-left" data-aos-duration="1200">
+                        <div class="solution-card card-g p-3 rounded-5">
+                            <div class="solution-card-content">
+                                <h3 class="text-capitalize head-alt-text fw-medium">group therapy</h3>
+                                <p class="para-alt-text m-0 py-3">Supportive group sessions fostering shared healing and emotional growth.</p>
+                                <div>
+                                    <a href="#contact_main" class="btn prime-btn rounded-pill p-3">book appointment</a> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>  
+                </div>
+            </div>
+         </section>
+        <!-- solutions ends here -->
+
+        <!-- News starts here  -->
+            <section class="news-main mb-3" id="news_main">
+                <div class="container py-5">
+                    <div class="head-content mx-auto text-center" data-aos="slide-up" data-aos-duration="1200">
+                        <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ MENTAL HEALTH INSIGHTS /</p>
+                        <h2 class="display-3 text-capitalize m-0 head-text">Explore Our Latest Articles & Resources</h2> 
+                    </div>  
+                </div>
+                <div class="hero-slider hero-style">
+                    <div class="swiper-container rounded-5">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slide-inner slide-bg-image" data-background="banner/banner.webp">
+                                <div class="slide-overlay"></div>
+                                    <div class="container">
+                                        <div data-swiper-parallax="300" class="slide-title">
+                                        <h2>Compassionate Care That Truly Listens</h2>
+                                        </div>
+                                        <div data-swiper-parallax="400" class="slide-text">
+                                        <p>A safe, supportive space where your thoughts and emotions are valued without judgment.</p>
+                                        </div>
+                                        <div class="clearfix"></div>
+                                    </div>
+                                </div>
+                            </div> 
+                            <div class="swiper-slide">
+                                <div class="slide-inner slide-bg-image" data-background="about/about.webp">
+                                <div class="slide-overlay"></div>
+                                <div class="container">
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                    <h2>Healing Begins With Understanding</h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                    <p>Evidence-based therapy designed to help you overcome anxiety, stress, trauma, and emotional challenges.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                </div>
+                            </div> 
+                            <div class="swiper-slide">
+                                <div class="slide-inner slide-bg-image" data-background="about/about2.webp">
+                                <div class="slide-overlay"></div>
+                                <div class="container">
+                                    <div data-swiper-parallax="300" class="slide-title">
+                                    <h2>Stronger Relationships Start Here</h2>
+                                    </div>
+                                    <div data-swiper-parallax="400" class="slide-text">
+                                    <p>Professional couples and family counseling to improve communication, rebuild trust, and restore connection.</p>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+                    </div>
+                </div>
+            </section>
+        <!-- News ends here -->
+
+        <!-- Testimonial Starts Here -->
+         <section class="testimonial-section-main rounded-5 py-5 mb-3">
+            <div class="container py-5">
+                <div class="head-content mx-auto text-center" data-aos="slide-up" data-aos-duration="1200">
+                    <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ Psychological Care & Health Therapy /</p>
+                    <h2 class="display-3 text-capitalize m-0 head-text">explore latest therapy sessions and our latest</h2>
+                    <h2 class="secondfont display-1 prime-shade text-capitalize m-0">our clients</h2>
+                </div>  
+            </div>  
+            <div class="col-sm-11 px-3 px-sm-0 col-xxl-10 py-2 ms-auto">
+                    <div class="swiper mySwiper2">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="flip-left" data-aos-duration="1200">
+                            <div class="testimonial-card h-100 card-bg rounded-5 p-5">
+                                <div class="d-flex align-items-center gap-3 mb-4">
+                                    <span class="testimonial-bg p-2 rounded-3 d-inline-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-quote-left fs-3"></i>
+                                    </span>
+                                    <h3 class="text-capitalize head-text m-0 fs-4">A Safe & Supportive Space</h3>
+                                </div>
+                                <p class="fs-5 ps-sm-5 mb-4 para-text">"Calmivelle provided a safe and understanding space that helped me regain confidence and clarity."</p>
+                                <div class="d-flex align-items-center gap-3 ps-sm-5 mb-4">
+                                    <img src="testimonial/test1.webp" height="50" width="50" class="object-fit-cover rounded-circle"  alt="testimonial-1">
+                                    <div>
+                                        <h3 class="text-capitalize head-text m-0 fs-5">Robert Perez</h3>
+                                        <p class="text-capitalize m-0 prime-text">ceo at abc company</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" data-aos="flip-right" data-aos-duration="1200">
+                            <div class="testimonial-card h-100 card-bg rounded-5 p-5">
+                                <div class="d-flex align-items-center gap-3 mb-4">
+                                    <span class="testimonial-bg p-2 rounded-3 d-inline-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-quote-left fs-3"></i>
+                                    </span>
+                                    <h3 class="text-capitalize head-text m-0 fs-4">Professional & Compassionate Care</h3>
+                                </div>
+                                <p class="fs-5 ps-sm-5 mb-4 para-text">"The guidance and support we received improved our relationship tremendously."</p>
+                                <div class="d-flex align-items-center gap-3 ps-sm-5 mb-4">
+                                    <img src="testimonial/test2.webp" height="50" width="50" class="object-fit-cover rounded-circle"  alt="testimonial-2">
+                                    <div>
+                                        <h3 class="text-capitalize head-text m-0 fs-5">Sarah Collins</h3>
+                                        <p class="text-capitalize m-0 prime-text">entrepreneur</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="swiper-slide" data-aos="flip-left" data-aos-duration="1200">
+                            <div class="testimonial-card h-100 card-bg rounded-5 p-5">
+                                <div class="d-flex align-items-center gap-3 mb-4">
+                                    <span class="testimonial-bg p-2 rounded-3 d-inline-flex align-items-center justify-content-center">
+                                    <i class="fa-solid fa-quote-left fs-3"></i>
+                                    </span>
+                                    <h3 class="text-capitalize head-text m-0 fs-4">Guidance That Truly Helps</h3>
+                                </div>
+                                <p class="fs-5 ps-sm-5 mb-4 para-text">"Professional, compassionate, and life-changing experience."</p>
+                                <div class="d-flex align-items-center gap-3 ps-sm-5 mb-4">
+                                    <img src="testimonial/test3.webp" height="50" width="50" class="object-fit-cover rounded-circle"  alt="testimonial-3">
+                                    <div>
+                                        <h3 class="text-capitalize head-text m-0 fs-5">Edward Miller</h3>
+                                        <p class="text-capitalize m-0 prime-text">Sales Manager</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                    </div>
+                    </div>
+            </div>  
+         </section>
+        <!-- Testimonial Ends Here -->
+
+        <!-- contact section starts here  -->
+         <section class="contact-section-main alt-bg py-5 mb-3" id="contact_main">
+            <div class="container overflow-y-hidden">
+                <div class="row align-items-center justify-content-between">
+                    <div class="col-lg-5 mb-3 mb-lg-0" data-aos="slide-down" data-aos-duration="1200">
+                        <p class="prime-text mb-3 text-uppercase fw-semibold sub-heading">/ CONTACT US /</p>
+                        <h2 class="display-5 fw-semibold head-text text-capitalize m-0">Start Your Journey Toward Emotional Wellness</h2> 
+                        <h2 class="display-1 secondfont head-text text-capitalize my-3">contact us</h2> 
+                        <p class="head-text my-4">123 Wellness Avenue, Serenity City, CA 90210</p>
+                        <div class="row g-5 align-items-start justify-content-between mb-3">
+                            <div class="col-6">
+                                <h3 class="head-text text-capitalize fs-5 mb-2">we are here:</h3>
+                                <p class="para-text m-0">27 division st, new york ny 10002 USA </p> 
+                            </div>
+                             <div class="col-6">
+                                <h3 class="head-text text-capitalize fs-5 mb-2">call us:</h3>
+                                <a href="tel:#" class="d-block mb-1 para-text">+1 (000) 000-0000</a> 
+                                <a href="tel:#" class="d-block para-text">+1 (111) 111-1111</a> 
+                            </div>
+                            <div class="col-6">
+                                <h3 class="head-text text-capitalize fs-5 mb-2">mail us:</h3> 
+                                <a href="mailto:#" class="para-text">info@example.com</a>
+                            </div>
+                             <div class="col-6">
+                                <h3 class="head-text text-capitalize fs-5 mb-2">we are in socials:</h3>
+                                <a href="#" aria-label="social-icon-facebook" class="fs-5 para-text me-3"><i class="fa-brands fa-facebook-f"></i></a> 
+                                <a href="#" aria-label="social-icon-instagram" class="fs-5 para-text me-3"><i class="fa-brands fa-instagram"></i></a> 
+                                <a href="#" aria-label="social-icon-linkedin"  class="fs-5 para-text"><i class="fa-brands fa-linkedin-in"></i></a>  
+                            </div>
+                        </div> 
+                    </div>
+                    <div class="col-lg-5" data-aos="slide-up" data-aos-duration="1200">
+                        <div class="card-bg border rounded-5 p-5">
+                             <h2 class="fs-3 fw-medium head-text text-capitalize mb-3">connect with us</h2> 
+                             <p class="para-text mb-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, libero.</p> 
+                             <form id="contactform">
+                                <input type="text" class="border-bottom input-text py-3 rounded-0 text-capitalize border-0 bg-transparent shadow-none form-control" name="fname" id="fname" aria-label="enter your first name" placeholder="your first name" required>
+                                <input type="text" class="border-bottom input-text py-3 rounded-0 text-capitalize border-0 bg-transparent shadow-none form-control mt-3" name="lname" id="lname" aria-label="enter your last name" placeholder="your last name" required>
+                                <input type="text" class="border-bottom input-text py-3 rounded-0 text-capitalize border-0 bg-transparent shadow-none form-control mt-3" name="email" id="email" aria-label="enter your email address" placeholder="your email address" required>
+                                <input type="text" class="border-bottom input-text py-3 rounded-0 text-capitalize border-0 bg-transparent shadow-none form-control mt-3" name="phone" id="phone" oninput="this.value = this.value.replace(/[^0-9]/g, '')" aria-label="enter your phone" placeholder="your phone" required>
+                                <textarea name="message" id="message" class="border-bottom input-text rounded-0 py-3 text-capitalize border-0 bg-transparent shadow-none form-control" rows="4" aria-label="enter your message" placeholder="your message" required></textarea>
+                                <button class="mt-5 btn prime-outline-btn px-4 py-3 rounded-pill" type="submit" name="contactfmain">send message</button>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+        <!-- contact section ends here  -->
+
+        <!-- map -->
+         <div class="map-wrapper">
+             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1241.4815010565853!2d-0.09896121095546204!3d51.51389476215981!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ab3cc6aa73%3A0xc34e423773b35232!2s5%20Paternoster%20Row%2C%20London%20EC4M%207DX%2C%20UK!5e0!3m2!1sen!2sin!4v1770975535471!5m2!1sen!2sin" height="500" class="w-100 border-0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+         </div> 
+    </main>
+
+    <footer class="footer-main footer-bg p-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mb-5 mb-md-0 light-border">
+                    <div class="mb-5">
+                        <img src="logo/logo2.png" height="40" class="object-fit-contain mb-4" alt="footer-logo">
+                        <p class="footer-text text-capitalize fs-5">Calmivelle is dedicated to providing compassionate, confidential, and evidence-based mental health care to individuals and families seeking meaningful emotional growth.</p>
+                    </div>
+                    <div class="mb-3">
+                        <h2 class="text-capitalize fw-semibold fs-4 footer-text mb-4">contact us</h2>
+                        <p class="footer-text text-capitalize mb-3">
+                            we are here: <i class="fa-solid ps-2 pe-2 fa-location-dot"></i> 742 Evergreen Terrace
+                        </p>
+                        <p class="footer-text text-capitalize mb-3">
+                            contact us: <a href="tel:#" class="ps-3"><i class="fa-solid pe-2 fa-phone"></i> +1-123456789</a>
+                        </p>
+                        <p class="footer-text text-capitalize mb-3">
+                            send email: <a href="mailto:#" class="ps-3"><i class="fa-solid pe-2 fa-envelope"></i> info@example.com</a>
+                        </p>
+                        <p class="footer-text text-capitalize mb-3">
+                            follow us: 
+                             <a href="#" aria-label="social-icon-facebook" class="fs-5 ps-4 me-3"><i class="fa-brands fa-facebook-square"></i></a> 
+                            <a href="#" aria-label="social-icon-instagram" class="fs-5 me-3"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="#" aria-label="social-icon-linkedin" class="fs-5"><i class="fa-brands fa-linkedin"></i></a>  
+                        </p>
+                    </div> 
+                </div>
+                <div class="col-md-6">
+                    <div class="ps-md-5 mb-5">
+                        <h2 class="text-capitalize fw-semibold fs-4 footer-text mb-4">services</h2>
+                        <ul class="list-unstyled column-2 mb-5 mb-md-3">
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">indivdual therapy</a></li>
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">couple therapy</a></li>
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">child therapy</a></li>
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">online therapy</a></li> 
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">corporate therapy</a></li>
+                            <li class="mb-3"><a href="#" class="text-uppercase fw-medium footer-text">group therapy</a></li> 
+                        </ul>
+                        <form id="newsletterform" class="mb-5">
+                            <div class="input-group border-bottom light-border pb-3">
+                                <input type="text" id="n_email" name="n_email" class="border-0 bg-transparent shadow-none form-control" autocomplete="off" placeholder="Subscribe Our Newsletter" aria-label="enter your email address for newsletter" required> 
+                                <button class="btn border-0 bg-transparent p-0" type="submit" name="newsletter" aria-label="submit newsletter form"> <i class="fa-solid fa-arrow-right-long text-white"></i> </button>
+                            </div>
+                        </form>
+                        <p class="footer-text text-capitalize m-0">&copy; <span id="currentyear"></span> all rights reserved calmi<span class="prime-text">velle</span></p>
+                    </div>
+                </div>
+            </div>
         </div>
 
-        <div class="contact-info">
-            <p>📧 Entre em contato: <a href="mailto:contato@psicologa.com.br">contato@psicologa.com.br</a></p>
-            <p>📱 WhatsApp: <a href="https://wa.me/5511999999999">(11) 99999-9999</a></p>
-        </div>
+    </footer>
 
-        <div class="hearts">💚 🤍 💚</div>
-    </div>
+    <!-- back To Top Button -->
+    <button id="backToTop" class="backtotop-btn" aria-label="back to top">
+        <svg width="60" height="60" viewBox="0 0 100 100">
+            <circle
+            cx="50"
+            cy="50"
+            r="45"
+            class="progress-bg"
+            stroke-width="8"
+            fill="none"
+            />
+            <circle
+            id="progressCircle"
+            cx="50"
+            cy="50"
+            r="45"
+            class="progress-bar"
+            stroke-width="8"
+            fill="none"
+            stroke-linecap="round"
+            stroke-dasharray="283"
+            stroke-dashoffset="283"
+            />
+        </svg>
+        <span class="arrow"> <i class="fa-solid fa-arrow-up-long"></i> </span>
+    </button>
 
+    <script src="js/jquery-3.7.1.js"></script> 
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.validate.min.js"></script> 
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/main.js"></script>
 </body>
+
+<!-- Mirrored from themeslab.lucidoutsourcing.com/demo/calmivelle/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 03 Mar 2026 20:34:25 GMT -->
 </html>
