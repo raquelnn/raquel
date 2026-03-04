@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&amp;family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;display=swap');
+
+[data-calmivelle-theme="light"] {
+
+    --body-bg: oklch(100% 0.00011 271.152);
+    --head-bg: oklch(100% 0.00011 271.152);
+    --banner-bg: 8, 8, 8;
+    --prime-bg: #25995c;
+    --alt-bg: oklch(97.614% 0.00011 271.152);
+    --card-bg: oklch(100% 0.00011 271.152);
+    --input-bg: oklch(99.5% 0.001 106.423);
+    --icon-bg: #25995c;
+    --footer-bg: oklch(0.21 0 0);
+    --footer-copy-bg: oklch(0% 0 0);
+
+    --nav-text: oklch(27.4% 0.006 286.033);
+    --white-text: oklch(100% 0 0);
+    --prime-text: #25995c;
+    --prime-shade: #71a98b;
+    --head-text: oklch(27.4% 0.006 286.033);
+    --para-text: oklch(46.04% 0.00005 271.152);
+    --icon-text: oklch(100% 0 0);
+    --head-alt-text: oklch(100% 0.00011 271.152);
+    --para-alt-text: oklch(100% 0.00011 271.152);
+    --input-text: oklch(27.4% 0.006 286.033);
+    --footer-text: oklch(100% 0.00011 271.152);
+    --footer-copy-text: oklch(100% 0.00011 271.152);
+
+    --prime-btn: #25995c;
+    --prime-btn2: #25995c;
+    --prime-btn-text: oklch(100% 0.00011 271.152);
+    --prime-btn-text2: #25995c;
+    --prime-btn-border: #25995c;
+    --prime-btn-border2: #25995c;
+
+    --prime-border: #25995c; 
+    --light-border: oklch(76.676% 0.00009 271.152);
+
+    --primefont: "Plus Jakarta Sans", sans-serif;
+    --secondfont: "Birthstone", cursive;
+}
+
+ [data-calmivelle-theme="dark"] {
+
+    /* Backgrounds */
+    --body-bg: oklch(12% 0.01 270);          /* main dark bg */
+    --head-bg: oklch(14% 0.01 270);
+    --banner-bg: 8, 8, 8;
+    --prime-bg: #25995c;
+    --alt-bg: oklch(18% 0.01 270);
+    --card-bg: oklch(16% 0.01 270);
+    --input-bg: oklch(20% 0.01 270);
+    --icon-bg: #25995c;
+    --footer-bg: oklch(10% 0.01 270);
+    --footer-copy-bg: oklch(8% 0.01 270);
+
+    /* Text Colors */
+    --nav-text: oklch(92% 0.01 270);
+    --white-text: oklch(100% 0 0);
+    --prime-text: #25995c;
+    --prime-shade: #71a98b;
+    --head-text: oklch(96% 0.01 270);
+    --para-text: oklch(75% 0.01 270);
+    --icon-text: oklch(100% 0 0);
+    --head-alt-text: oklch(96% 0.01 270);
+    --para-alt-text: oklch(80% 0.01 270);
+    --input-text: oklch(95% 0.01 270);
+    --footer-text: oklch(90% 0.01 270);
+    --footer-copy-text: oklch(70% 0.01 270);
+
+    /* Buttons */
+    --prime-btn: #25995c;
+    --prime-btn2: #1f7f4c;  /* darker hover */
+    --prime-btn-text: oklch(100% 0 0);
+    --prime-btn-text2: #25995c;
+    --prime-btn-border: #25995c;
+    --prime-btn-border2: #25995c;
+
+    /* Borders */
+    --prime-border: #25995c; 
+    --light-border: oklch(30% 0.01 270);
+
+    /* Fonts */
+    --primefont: "Plus Jakarta Sans", sans-serif;
+    --secondfont: "Birthstone", cursive;
+}
+
+.body-bg {
+    background-color: var(--body-bg) !important;
+}
+
+.head-bg {
+    background-color: var(--head-bg) !important;
+}
+
+.banner-bg {
+    background-color: var(--banner-bg) !important;
+}
+
+.prime-bg {
+    background-color: var(--prime-bg) !important;
+}
+
+.alt-bg {
+    background-color: var(--alt-bg) !important;
+}
+.card-bg {
+    background-color: var(--card-bg) !important;
+}
+
+.input-bg {
+    background-color: var(--input-bg) !important;
+}
+
+.icon-bg {
+    background-color: var(--icon-bg) !important;
+}
+
+.footer-bg {
+    background-color: var(--footer-bg) !important;
+}
+
+.footer-copy-bg {
+    background-color: var(--footer-copy-bg) !important;
+}
+
+.nav-text {
+    color: var(--nav-text) !important;
+}
+.icon-text {
+    color: var(--icon-text) !important;
+}
+
+.white-text {
+    color: var(--white-text) !important;
+}
+
+.prime-text {
+    color: var(--prime-text) !important;
+}
+.prime-shade {
+    color: var(--prime-shade) !important;
+}
+
+.head-text {
+    color: var(--head-text) !important;
+}
+
+.para-text {
+    color: var(--para-text) !important;
+}
+
+.head-alt-text {
+    color: var(--head-alt-text) !important;
+}
+
+.para-alt-text {
+    color: var(--para-alt-text) !important;
+}
+
+.input-text {
+    color: var(--input-text) !important;
+}
+
+.footer-text {
+    color: var(--footer-text) !important;
+}
+
+.footer-copy-text {
+    color: var(--footer-copy-text) !important;
+}
+
+.prime-btn {
+    background-color: var(--prime-btn) !important;
+    color: var(--prime-btn-text) !important;
+    border: 1px solid var(--prime-border) !important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+}
+
+.prime-btn:hover {
+    background-color: var(--prime-btn2) !important;
+    color: var(--prime-btn-text) !important;
+    border: 1px solid var(--prime-btn-border2) !important;
+}
+
+.prime-outline-btn {
+    background-color: transparent !important;
+    color: var(--prime-btn-text2) !important;
+    border: 1px solid var(--prime-border) !important;
+    text-transform: capitalize !important;
+    font-weight: bold;
+}
+
+.prime-outline-btn:hover {
+    background-color: var(--prime-btn) !important;
+    color: var(--prime-btn-text) !important;
+    border: 1px solid var(--prime-btn-border2) !important;
+}
+
+.prime-border {
+    border-color: var(--prime-border) !important;
+} 
+
+.light-border {
+    border-color: var(--light-border) !important;
+}
+.primefont {
+    font-family: var(--primefont) !important;
+}
+.secondfont {
+    font-family: var(--secondfont) !important;
+}
+.fs-7{
+    font-size: 14px;
+}
+.fs-8{
+    font-size: 12px;
+}
